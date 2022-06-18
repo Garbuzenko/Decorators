@@ -1,7 +1,6 @@
 import datetime
 from functools import wraps
 
-
 def log(path):
     def _log(f):
         @wraps(f)
